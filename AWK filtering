@@ -1,0 +1,5 @@
+This script was used to filter a file, i.e. strength.txt to keep rows in which the term "Pm_10271" was present and to generate a new output file called "strength_pm10271.txt"
+
+awk '{ if (/Pm_10271/) { print } }' strength.txt > strength_pm10271.txt
+
+
