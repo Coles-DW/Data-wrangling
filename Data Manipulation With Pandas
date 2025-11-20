@@ -1,0 +1,5 @@
+# import pandas as pd
+import pandas as pd
+
+
+# Print the head of the homelessness DataFrame.
